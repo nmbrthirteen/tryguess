@@ -12,7 +12,7 @@ Your Mission is to Guess The Conceived Number
   - ENJOY  :)
     
 > Usage For Windows:
-  - Save Folder
+  - Save file
   - Excract
   - open cmd in same folder
   - python tryguess.py
