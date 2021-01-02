@@ -15,7 +15,7 @@ Your Mission is to Guess The Conceived Number
   - Save file tryguess-main.zip
   - Excract
   - open cmd in same folder
-  - in cmd type --```python tryguess.py```
+  - in cmd type ```python tryguess.py```
   
   - ENJOY  :)
   
