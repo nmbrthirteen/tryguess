@@ -6,13 +6,13 @@ Your Mission is to Guess The Conceived Number
 
 > Usage For Linux:
   - git clone https://github.com/nmbrthirteen/tryguess
-  - cd tryguess
+  - cd tryguess-main
   - python tryguess.py
   
   - ENJOY  :)
     
 > Usage For Windows:
-  - Save file
+  - Save file tryguess-main.zip
   - Excract
   - open cmd in same folder
   - python tryguess.py
