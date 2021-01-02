@@ -15,7 +15,7 @@ def start():
     print ("also, you have only 10 attempts")
     print ("\nNumber is from 1 to 50")
     firstQuestion = input("Can we start?(yes or no): ")
-    if firstQuestion == "yes" or firstQuestion == "Yes" or firstQuestion == "YES":
+    if firstQuestion == str("yes") or firstQuestion == str("Yes") or firstQuestion == str("YES"):
         platformCheck()
         trytoGuess();
     else:
@@ -53,7 +53,7 @@ def trytoGuess():
         if tries == 10:
             print("\nYou have run out of attempts")
             lastQuestionisa = input("Do you need to play again?(yes or no): ")
-            if lastQuestionisa == "yes" or lastQuestionisa == "Yes" or lastQuestionisa == "YES":
+            if lastQuestionisa == str("yes") or lastQuestionisa == str("Yes") or lastQuestionisa == str("YES"):
                 platformCheck()
                 start2();
             else:
@@ -63,7 +63,7 @@ def trytoGuess():
             platformCheck()
             print("Oh my god! you guessed it!! Correct Answer is {}".format(toGuess)  or "Bravo! you guessed it! Correct Answer is {}".format(toGuess))
             lastQuestion = input("Do you need to play again?(yes or no): ")
-            if lastQuestion == "yes" or lastQuestion == "Yes" or lastQuestion == "YES":
+            if lastQuestion == str("yes") or lastQuestion == str("Yes") or lastQuestion == str("YES"):
                 platformCheck()
                 start2();
             else:
